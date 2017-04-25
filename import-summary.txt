@@ -1,0 +1,63 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => DHNetSDK\src\main\AndroidManifest.xml
+* assets\ => DHNetSDK\src\main\assets
+* libs\armeabi\libaaccodec.so => DHNetSDK\src\main\jniLibs\armeabi\libaaccodec.so
+* libs\armeabi\libaacdec.so => DHNetSDK\src\main\jniLibs\armeabi\libaacdec.so
+* libs\armeabi\libadpcmdec.so => DHNetSDK\src\main\jniLibs\armeabi\libadpcmdec.so
+* libs\armeabi\libamrcodec.so => DHNetSDK\src\main\jniLibs\armeabi\libamrcodec.so
+* libs\armeabi\libamrdec.so => DHNetSDK\src\main\jniLibs\armeabi\libamrdec.so
+* libs\armeabi\libconfigsdk.so => DHNetSDK\src\main\jniLibs\armeabi\libconfigsdk.so
+* libs\armeabi\libfisheye.so => DHNetSDK\src\main\jniLibs\armeabi\libfisheye.so
+* libs\armeabi\libgnustl_shared.so => DHNetSDK\src\main\jniLibs\armeabi\libgnustl_shared.so
+* libs\armeabi\libh264dec_ansic.so => DHNetSDK\src\main\jniLibs\armeabi\libh264dec_ansic.so
+* libs\armeabi\libh264dec_neon.so => DHNetSDK\src\main\jniLibs\armeabi\libh264dec_neon.so
+* libs\armeabi\libh26ldec.so => DHNetSDK\src\main\jniLibs\armeabi\libh26ldec.so
+* libs\armeabi\libhevcdec.so => DHNetSDK\src\main\jniLibs\armeabi\libhevcdec.so
+* libs\armeabi\libjninetsdk.so => DHNetSDK\src\main\jniLibs\armeabi\libjninetsdk.so
+* libs\armeabi\libjniplay.so => DHNetSDK\src\main\jniLibs\armeabi\libjniplay.so
+* libs\armeabi\libmjpegdec.so => DHNetSDK\src\main\jniLibs\armeabi\libmjpegdec.so
+* libs\armeabi\libmp2dec.so => DHNetSDK\src\main\jniLibs\armeabi\libmp2dec.so
+* libs\armeabi\libmp3dec.so => DHNetSDK\src\main\jniLibs\armeabi\libmp3dec.so
+* libs\armeabi\libmpeg4dec.so => DHNetSDK\src\main\jniLibs\armeabi\libmpeg4dec.so
+* libs\armeabi\libnetsdk.so => DHNetSDK\src\main\jniLibs\armeabi\libnetsdk.so
+* libs\armeabi\liboggdec.so => DHNetSDK\src\main\jniLibs\armeabi\liboggdec.so
+* libs\armeabi\libplay.so => DHNetSDK\src\main\jniLibs\armeabi\libplay.so
+* libs\armeabi\libpostproc.so => DHNetSDK\src\main\jniLibs\armeabi\libpostproc.so
+* libs\armeabi\libStreamPackage.so => DHNetSDK\src\main\jniLibs\armeabi\libStreamPackage.so
+* libs\armeabi\libStreamParser.so => DHNetSDK\src\main\jniLibs\armeabi\libStreamParser.so
+* libs\armeabi\libsvac_dec.so => DHNetSDK\src\main\jniLibs\armeabi\libsvac_dec.so
+* libs\armeabi\libToUProxy.so => DHNetSDK\src\main\jniLibs\armeabi\libToUProxy.so
+* libs\IPlaySDK.jar => DHNetSDK\libs\IPlaySDK.jar
+* libs\libToUProxy.jar => DHNetSDK\libs\libToUProxy.jar
+* res\ => DHNetSDK\src\main\res\
+* src\ => DHNetSDK\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
